@@ -1,2 +1,2 @@
-# mickel_repo
+# Mickel_repo
 Data Science and ML projects
