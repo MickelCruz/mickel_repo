@@ -7,7 +7,18 @@ from PIL import Image
 
 def main():
     st.title('Image Web Classifier')    
-    st.write('Upload any image within the classes')
+    st.write("**This app can classify various objects and animals, including the following:**")
+
+    left, right = st.columns((2,2))
+    left.markdown('-Airplane')
+    right.markdown('-Automobile')
+    left.markdown('-Bird')
+    right.markdown('-Deer')
+    left.markdown('-Dog')
+    right.markdown('-Frog')
+    left.markdown('-Horse')
+    right.markdown('-Ship')
+    left.markdown('-Truck')
     
 
     file = st.file_uploader('Please upload an image', type=['jpg', 'png'])
